@@ -1,0 +1,98 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(172, 88, 172);
+}
+* {
+    position: absolute;
+}
+
+.head {
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background-color: sandybrown;
+}
+.head {
+    width: 100%;
+    height: 100%;
+    background-color: violet;
+    border-radius: 30%;
+    box-shadow: inset -5px -5px 0px saddlebrown ;
+}
+.face {
+  width: 150px;
+  height: 180px;
+  left: 75px;
+  top: 75px;  
+}
+.mouth {
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 10px 10px 150px 150px;
+    border: 5px solid black;
+    overflow:hidden;
+}
+.tongue {
+    width: 100px;
+    height: 80px;
+    left: 25px;
+    top: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.eye-group {
+    width: 150px;
+    height: 50px;
+    top: 30px;
+    left: 0;
+}
+
+.eye {
+    background-color: darkmagenta;
+    width: 40px;
+    height: 60px;
+    border-radius: 30%;
+}
+
+.pupil {
+    width: 10px;
+    height: 30px;
+    top: 20px;
+    left: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40%;
+}
+
+.eye-left {
+    left: 10px;
+}
+
+.eye-right {
+    right: 5px;
+}
+
+.circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30%;
+    background-color: yellow;
+}
